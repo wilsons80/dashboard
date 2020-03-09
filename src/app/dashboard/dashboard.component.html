@@ -1,12 +1,12 @@
 <div class="container">
     <div class="ui-g">
         <div class="ui-g-12">
-            <h1>Dashboard</h1>
+            <h1>Dashboard MQP - Potiguar</h1>
         </div>
     </div>
 
     <div class="ui-g-12 ui-md-6">
-        <p-panel header="Lançamentos por categoria">
+        <p-panel header="Lançamentos por unidades">
             <p-chart type="pie" [data]="pieChartData"></p-chart>
         </p-panel>
     </div>
@@ -14,6 +14,14 @@
     <div class="ui-g-12 ui-md-6">
         <p-panel header="Lançamentos por dia">
             <p-chart type="line" [data]="lineChartData"></p-chart>
+        </p-panel>
+    </div>
+
+
+
+    <div class="ui-g-12 ui-md-6">
+        <p-panel header="Lançamentos por mês">
+            <p-chart type="bar" [data]="colunaChartData"></p-chart>
         </p-panel>
     </div>
 
