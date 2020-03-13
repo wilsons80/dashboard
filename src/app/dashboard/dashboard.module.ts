@@ -6,6 +6,7 @@ import { DashboardComponent } from './dashboard.component';
 import { PanelModule } from 'primeng/panel';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ChartModule } from 'primeng/chart';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [DashboardComponent],
@@ -14,7 +15,8 @@ import { ChartModule } from 'primeng/chart';
     DashboardRoutingModule,
     PanelModule,
     BrowserAnimationsModule,
-    ChartModule
+    ChartModule,
+    FlexLayoutModule
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })

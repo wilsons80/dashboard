@@ -31,7 +31,7 @@
         </p-panel>
     </div>
 
-    <div class="ui-g-12 ui-md-6">
+    <div class="ui-g-12 ui-md-12">
         <p-panel header="Usando apenas Chartjs - Exemplo 2">
             <canvas id="myChart2" ></canvas>
         </p-panel>
@@ -40,3 +40,22 @@
 </div>
 
 
+
+<br/>
+
+<h1>Testando FxLayout</h1>
+
+<div fxLayout="row" fxLayout.xs="column" fxLayoutAlign.xs="center stretch" fxLayoutAlign="space-around center" >
+
+    <div fxFlex='45'>
+        <p-panel header="Usando apenas Chartjs - Exemplo 2">
+            <p-chart type="bar" [data]="colunaChartData"></p-chart>
+        </p-panel>
+    </div>
+
+    <div fxFlex='45'>
+        <p-panel header="Usando apenas Chartjs - Exemplo 2">
+            <p-chart type="bar" [data]="colunaChartData"></p-chart>
+        </p-panel>
+    </div>
+</div>
